@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rei Dos Cones</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- CSS do Projeto -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Script do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand primary-color">
+                <img src="img/REI-DOS-CONES.svg" alt="reidoscones">
+                </object>
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar-items"
+                aria-controls="navbar-items"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link primary-color" id="btn-product">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link primary-color" id="btn-aboutus">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link primary-color" id="btn-contact">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slides -->
+    <div class="container" id="slide-container">
+        <div class="carousel slide" id="slider" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/brownie1.jpeg" class="d-block w-100" alt="c1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/brownie2.jpeg" class="d-block w-100" alt="c2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/brownie3.jpeg" class="d-block w-100" alt="c3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Produtos -->
+    <div class="container" id="featured-container">
+        <div class="col-12">
+            <h2 class="title primary-color">Nossos Produtos</h2>
+            <p class="subtitle secondary-color">Conheça os nosso produtos</p>
+        </div>
+        <div class="col-12" id="featured-images">
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <img src="img/brownie1.jpeg" alt="brownie1" class="img-fluid">
+                    <div class="banner-content">
+                        <h3>Nome do produto</h3>
+                        <p class="secondary-color">Descrição</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/brownie2.jpeg" alt="brownie2" class="img-fluid">
+                    <div class="banner-content">
+                        <h3>Nome do produto</h3>
+                        <p class="secondary-color">Descrição</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/brownie3.jpeg" alt="brownie3" class="img-fluid">
+                    <div class="banner-content">
+                        <h3>Nome do produto</h3>
+                        <p class="secondary-color">Descrição</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/brownie4.jpg" alt="brownie4" class="img-fluid">
+                    <div class="banner-content">
+                        <h3>Nome do produto</h3>
+                        <p class="secondary-color">Descrição</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/brownie5.jpg" alt="brownie5" class="img-fluid">
+                    <div class="banner-content">
+                        <h3>Nome do produto</h3>
+                        <p class="secondary-color">Descrição</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/brownie6.jpg" alt="brownie6" class="img-fluid">
+                    <div class="banner-content">
+                        <h3>Nome do produto</h3>
+                        <p class="secondary-color">Descrição</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Empresa -->
+    <div class="container" id="info-container">
+        <div class="col-12">
+            <h2 class="title primary-color">Sobre a empresa</h2>
+            <p class="subtitle secondary-color">Saiba sobre a nossa empresa</p>
+        </div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-5" id="info-banner">
+                    <img
+                        src="img/empresa.jpg"
+                        alt="Informações da Empresa"
+                        class="img-fluid"
+                    />
+                </div>
+                <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="title primary-color">Estes dados fazem a diferença</h2>
+                            <p class="subtitle secondary-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim officia, eum autem dolores sunt. Mollitia eaque nulla ullam perspiciatis, nam aliquid sunt libero vitae possimus eos, architecto maiores laudantium?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Encomenda -->
+    <div class="container" id="order-container">
+        <div class="col-12">
+            <h2 class="title primary-color">Faça seu pedido</h2>
+        </div>
+        <form method="post" action="mailto:renansilva.16.2018@gmail.com">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nome</label>
+              <input type="name" class="form-control" id="name" placeholder="Digite seu nome">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Telefone</label>
+                <input id="phone" type="tel" name="phone" class="form-control" placeholder="(99)99999-9999" maxlength="14" pattern="\(\d{2}\)\s*\d{5}-\d{4}" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea id="mensage" class="form-control" placeholder="Digite alguma coisa aqui..."></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Receber informações</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark-color" id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Footer top -->
+                <div class="col-12" id="footer-top">
+                    <div class="row justify-content-between">
+                        <div class="col-4">
+                            <img src="img/REI-DOS-CONES_DARK.svg" alt="reidoscones">
+                        </div>
+                        <div class="col-4" id="social-icons">
+                            <a href="https://www.instagram.com/reisdocone/" target="_blank"><i class="bi bi-instagram"></i></a>
+                            <a href="https://api.whatsapp.com/send/?phone=%2B5561981549231&text&type=phone_number&app_absent=0" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer details -->
+                <div class="col-12" id="footer-details">
+                    <div class="row">
+                        <div class="col-12 col-md-4" id="news-container">
+                            <h4>Fique por dentro das novidades</h4>
+                            <p class="secondary-color">Inscreva-se para saber em primeira mão</p>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Digite o seu e-mail">
+                                </div>
+                                <button class="btn btn-dark" type="submit">Inscrever</button>
+                            </form>
+                        </div>
+                        <div class="col-12 col-md-4" id="contact-container">
+                            <h4>Formas de contato</h4>
+                            <p class="secondary-color">(61) 98154-9231</p>
+                            <p class="secondary-color">contato@rei.com</p>
+                        </div>
+                        <div class="col-12 col-md-4" id="links-container">
+                            <div class="row">
+                                <h4>Você pode estar procurando por:</h4>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#" class="secondary-color">Produtos</a></li>
+                                        <li><a href="#" class="secondary-color">Sobre nós</a></li>
+                                        <li><a href="#" class="secondary-color">Contatos</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#" class="secondary-color">Encomendar</a></li>
+                                        <li><a href="#" class="secondary-color">Fale conosco</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer bottom -->
+                <div class="col-12" id="footer-bottom">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-md-3">
+                            <p class="secondary-color">reidoscones &copy; 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+    <!-- Meu script -->
+    <script>
+        const tel = document.getElementById("phone") // Seletor do campo de telefone
+
+        tel.addEventListener('keyup', (e) => mascaraTelefone(e.target.value), false) // Dispara quando digitado no campo
+        tel.addEventListener('change', (e) => mascaraTelefone(e.target.value), false) // Dispara quando autocompletado o campo
+
+        const mascaraTelefone = (valor) => {
+            console.log(valor)
+            valor = valor.replace(/\D/g, "")
+            valor = valor.replace(/^(\d{2})(\d)/g, "($1)$2")
+            valor = valor.replace(/(\d)(\d{4})$/, "$1-$2")
+            tel.value = valor // Insere o(s) valor(es) no campo
+        }
+
+        const product = document.getElementById("btn-product");
+        const aboutus = document.getElementById("btn-aboutus");
+        const contact = document.getElementById("btn-contact");
+
+        const featured = document.querySelector("#featured-container");
+        const info = document.querySelector("#info-container");
+        const footer = document.querySelector("#footer");
+
+        product.addEventListener('click', (e) => window.scrollTo(0, featured.offsetTop - 150));
+    
+        aboutus.addEventListener('click', (e) => window.scrollTo(0, info.offsetTop - 150));
+
+        contact.addEventListener('click', (e) => window.scrollTo(0, footer.offsetTop - 100));
+
+    </script>
+</html>
